@@ -339,6 +339,14 @@ section {
     transition-duration: 1s;
 }
 
+@media (max-width:1060px) {
+    .section-sobre-mim2 {
+        height: 845px;
+        gap: 55px;
+    }
+    
+}
+
 @media (max-width:1024px) {
     .section-inicio {
         display: flex;
@@ -360,7 +368,7 @@ section {
     }
 
     .section-sobre-mim2 {
-        height: 810px;
+        height: 855px;
     }
 
     .section-projeto {
@@ -372,7 +380,7 @@ section {
 
     .barra-container {  
         flex-direction: column;
-        gap: 20px;
+        gap: 15px;
         height: 150px;
 
     }
