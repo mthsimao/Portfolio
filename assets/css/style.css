@@ -172,7 +172,6 @@ section {
     margin: 0 auto;
     display: flex;
     align-items: center;
-    padding: 20px;
 }
 
 .section-projeto {
@@ -193,8 +192,8 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
-    justify-content: space-around;
-    gap: 30px;
+    justify-content: center;
+    gap: 25px;
 }
 
 .div-projeto1 {
@@ -204,7 +203,7 @@ section {
 }
 
 .pro-img {
-    width: 300px;
+    width: 290px;
     padding-top: 10px;
 }
 
@@ -358,12 +357,12 @@ section {
 
     .inicio-inp {
         text-align: center;
-        width: 230px;
+        width: 210px;
         background-color: #253d96;
     }
 
     .img-pq {
-        width: 250px;
+        width: 230px;
         height: 270px;
     }
 
@@ -385,22 +384,51 @@ section {
 
     }
 
+    .div-habilidades-titulo h2 {
+        font-size: 2.6rem;
+    }
+
     .section-sobre-mim2 {
         height: 865px;
         padding: 40px;
     }
 }
 
-@media (max-width:410px) {
+@media (max-width:420px) {
+
+    .barra-container {
+        height: 180px;
+    }
+
+    .section-inicio-text {
+        font-size: 1.5rem;
+    }
+
+    .section-inicio-text {
+        width: 300px;
+    }
+
+    .img-pq {
+        width: 205px;
+        height: 220px;
+    }
+
+    .section-projeto {
+        padding: 10px;
+    }
+
+    .projeto-titulo {
+        font-size: 2rem;
+        padding: 10px;
+    }
 
     .div-footer {
         display: flex;
         flex-direction: column;
-        
     }
 
     .section-sobre-mim2 {
-        height: 875px;
+        height: 910px;
     }
 
     .footer-social2 ul{
