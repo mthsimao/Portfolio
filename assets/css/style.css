@@ -360,7 +360,7 @@ section {
     }
 
     .section-sobre-mim2 {
-        height: 800px;
+        height: 810px;
     }
 
     .section-projeto {
@@ -378,7 +378,7 @@ section {
     }
 
     .section-sobre-mim2 {
-        height: 850px;
+        height: 865px;
         padding: 40px;
     }
 }
@@ -389,6 +389,10 @@ section {
         display: flex;
         flex-direction: column;
         
+    }
+
+    .section-sobre-mim2 {
+        height: 875px;
     }
 
     .footer-social2 ul{
