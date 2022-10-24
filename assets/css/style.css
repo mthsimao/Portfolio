@@ -45,7 +45,6 @@ section {
 }
 
 .centralizador {
-    
     margin: 0 auto;
 }
 
@@ -341,7 +340,6 @@ section {
 @media (max-width:1060px) {
     .section-sobre-mim2 {
         height: 845px;
-        gap: 55px;
     }
     
 }
@@ -362,7 +360,7 @@ section {
     }
 
     .img-pq {
-        width: 230px;
+        width: 250px;
         height: 270px;
     }
 
@@ -371,7 +369,13 @@ section {
     }
 
     .section-projeto {
-        height: 55%;
+        height: 750px;
+    }
+}
+
+@media (max-width:784px) {
+    .section-projeto {
+        height: 1280px;
     }
 }
 
@@ -389,8 +393,22 @@ section {
     }
 
     .section-sobre-mim2 {
-        height: 865px;
-        padding: 40px;
+        height: 885px;
+        padding: 20px;
+    }
+
+    .section-projeto {
+        height: 1280px;
+    }
+}
+
+@media (max-width:490px) {
+    .section-sobre-mim2 {
+        height: 915px;
+    }
+
+    .section-sm-text p{
+        font-size: 1.6rem;
     }
 }
 
@@ -413,13 +431,23 @@ section {
         height: 220px;
     }
 
-    .section-projeto {
+    .section-sobre-mim2 {
+        gap: 5px;
         padding: 10px;
+    }
+
+    .section-sm-text p {
+        width: 340px;
+        font-size: 1.4rem;
+    }
+
+    .section-projeto {
+        height: 1250px;
+        padding: 0;
     }
 
     .projeto-titulo {
         font-size: 2rem;
-        padding: 10px;
     }
 
     .div-footer {
@@ -428,7 +456,7 @@ section {
     }
 
     .section-sobre-mim2 {
-        height: 910px;
+        height: 915px;
     }
 
     .footer-social2 ul{
