@@ -53,9 +53,9 @@ section {
 }
 
 .img-pq {
-    width: 390px;
-    height: 420px;
-    border-radius: 50%;
+    width: 290px;
+    height: auto;
+    border-radius: 30px;
 }
 
 .ul {
@@ -337,6 +337,11 @@ section {
     transition-duration: 1s;
 }
 
+.pro-img2 {
+    width: 290px;
+    height: 235px;
+}
+
 @media (max-width:1060px) {
     .section-sobre-mim2 {
         height: 845px;
@@ -361,7 +366,6 @@ section {
 
     .img-pq {
         width: 250px;
-        height: 270px;
     }
 
     .section-sobre-mim2 {
@@ -385,7 +389,6 @@ section {
         flex-direction: column;
         gap: 15px;
         height: 150px;
-
     }
 
     .div-habilidades-titulo h2 {
@@ -428,7 +431,6 @@ section {
 
     .img-pq {
         width: 205px;
-        height: 220px;
     }
 
     .section-sobre-mim2 {
@@ -463,4 +465,113 @@ section {
         padding-top: 10px;
     }
     
+}
+
+@media (max-width:390px) {
+
+    .barra-container {
+        height: 190px;
+    }
+
+    .section-inicio-text {
+        font-size: 1.4rem;
+    }
+
+    .section-inicio-text {
+        width: 290px;
+    }
+
+    .img-pq {
+        width: 200px;
+    }
+
+    .section-sobre-mim2 {
+        gap: 5px;
+        padding: 10px;
+    }
+
+    .section-sm-text p {
+        width: 330px;
+        font-size: 1.3rem;
+    }
+
+    .section-projeto {
+        height: 1260px;
+        padding: 0;
+    }
+
+    .projeto-titulo {
+        font-size: 1.7rem;
+    }
+
+    .div-projeto1 {
+        width: 340px;
+    }
+
+    .pro-img {
+        width: 270px;
+    }
+
+    .projeto-links input {
+        width: 260px;
+    }
+
+    .div-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-sobre-mim2 {
+        height: 930px;
+    }
+
+    .footer-social2 ul{
+        padding-top: 15px;
+    }
+    
+}
+
+@media (max-width:360px) {
+    .div-projeto1 {
+        width: 320px;
+    }
+
+    .pro-img {
+        width: 250px;
+    }
+
+    .projeto-links input{
+        width: 250px;
+    }
+}
+
+@media (max-width:340px) {
+    .section-sm-text p {
+        width: 300px;
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:320px) {
+
+    .img-programmer {
+        width: 250px;
+    }
+
+    .section-sm-text p {
+        width: 280px;
+        font-size: 1.3rem;
+    }
+
+    .div-projeto1 {
+        width: 310px;
+    }
+
+    .pro-img {
+        width: 240px;
+    }
+
+    .projeto-links input{
+        width: 240px;
+    }
 }
