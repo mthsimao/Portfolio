@@ -259,6 +259,7 @@ section {
 .projeto-links input:hover {
     background-color: #4e2aaf;
     transition: .3s;
+    transform: scale(1.1);
 }
 
 #tecnologias {
@@ -531,7 +532,8 @@ section {
 
 
     .projeto-links input {
-        width: 260px;
+        font-size: 1em;
+        width: 250px;
     }
 
     .div-footer {
