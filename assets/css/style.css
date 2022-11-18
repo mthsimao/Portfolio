@@ -330,12 +330,12 @@ section {
     background-color: var(--cor2);
     padding: 10px;
     border-radius: 20%;
+    transition: all .6s ease-in-out;
 }
 
 .footer-social2 svg:hover {
     background-color: var(--cor4);
     transform: rotate(360deg);
-    transition-duration: 1s;
 }
 
 .pro-img2 {
