@@ -255,11 +255,12 @@ section {
     font-weight: bold;
     font-size: 18px;
     cursor: pointer;
+    transition: all .3s ease-in-out;
 }
 
 .projeto-links input:hover {
     background-color: #4e2aaf;
-    transition: .3s;
+    
     transform: scale(1.1);
 }
 
