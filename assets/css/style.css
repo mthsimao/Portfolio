@@ -3,11 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;600;700&family=Noto+Sans:wght@300&family=Source+Sans+Pro:wght@400;600&display=swap');
 
 :root {
-    --cor1: #703EF8;
-    --cor2: #3637D9;
-    --cor3: #3559DB;
-    --cor4: #368CD9;
-    --cor5: #3ED2F8;
+    --cor0: #000;
+    --cor1: #252525;
+    --cor2: #3a3a3a;
+    --cor3: #2dd4da;
+    --cor4: #ff6600;
+    --cor5: #464646;
+
     --font-fira: 'Fira Code', monospace;
     --font-source: 'Source Sans Pro', sans-serif;
     --font-noto: font-family: 'Noto Sans', sans-serif;
@@ -31,8 +33,7 @@ section {
 }
 
 .header {
-    background: linear-gradient(to right, var(--cor4), var(--cor5));
-    backdrop-filter: blur(10px);
+    background-color: var(--cor5);
     border-bottom: 1px solid rgba(255, 255, 255, 0.39);
     padding: 10px;
 }
@@ -64,25 +65,27 @@ section {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 38px;
     list-style-type: none;
 }
 
 .ul a {
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: 600;
     text-decoration: none;
+    font-size: 18px;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.651);
+    transition: all .3s ease-in-out;
 }
 
 .ul a:hover {
-    color: rgb(219, 219, 219);
+    color: var(--cor3);
+    border-radius: 5px;
     text-decoration: underline;
-    transition: .3s;
 }
 
 #inicio {
-    background: linear-gradient(35deg, var(--cor2) 37.05% , var(--cor4) 61.05% );
+    background: linear-gradient(45deg, var(--cor0) 23.95% , var(--cor5) 67.08%);
     
 }
 
@@ -102,7 +105,7 @@ section {
 }
 
 .section-inicio-text p {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.555);
+    text-shadow: 2px 2px 4px #0000008e;
 }
 
 .section-inicio-text span {
@@ -112,26 +115,27 @@ section {
 }
 
 .inicio-inp {
-    background-color: #253d96;
+    background-color: transparent;
     color: white;
-    border: none;
+    border: 1px solid var(--cor4);
     border-radius: 100px;
-    width: 300px;
-    padding: 20px;
-    margin-top: 10px;
-    font-size: 22px;
+    width: 272px;
+    padding: 15px;
+    margin-top: 1em;
+    font-size: 18px;
     letter-spacing: 1.3px;
     cursor: pointer;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.473);
+    transition: all .3s ease-in-out;
+
 }
 
 .inicio-inp:hover {
-    background-color: var(--cor4);
-    transition: .4s;
+    letter-spacing: 3px;
+    transform: scale(1.1);
 }
 
 #sobre-mim {
-    background-color: #253f9b;
+    background-color: var(--cor1);
     display: flex;
     align-items: center;
 }
@@ -167,7 +171,7 @@ section {
 }
 
 #projetos {
-    background-color: var(--cor3);    
+    background-color: var(--cor2);    
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -215,7 +219,7 @@ section {
     justify-content: center;
     padding: 20px;
     gap: 20px;
-    background-color: #1f1f20;
+    background-color: #242424;
     border-radius: 25px;
 }
 
@@ -246,9 +250,10 @@ section {
 }
 
 .projeto-links input{
+    background-color: transparent;
     border: none;
     color: white;
-    background-color: var(--cor1);
+    border: 1px solid var(--cor4);
     padding: 12px;
     width: 185px;
     border-radius: 100px;
@@ -259,13 +264,13 @@ section {
 }
 
 .projeto-links input:hover {
-    background-color: #4e2aaf;
-    
-    transform: scale(1.1);
+    border: 1px solid var(--cor3);
+    letter-spacing: 3px;
+    transform: scale(1.06);
 }
 
 #tecnologias {
-    background-color: var(--cor2);
+    background-color: var(--cor1);
 }
 
 .div-habilidades {
@@ -301,7 +306,7 @@ section {
 }
 
 #footer {
-    background-color: #1f1f20;
+    background-color: var(--cor2);
 }
 
 .div-footer {
@@ -328,16 +333,17 @@ section {
 }
 
 .footer-social2 svg {
-    text-decoration: none;
-    background-color: var(--cor2);
+    background-color: transparent;
+    border: 1px solid var(--cor4);
     padding: 10px;
-    border-radius: 20%;
+    text-decoration: none;
+    border-radius: 25%;
     transition: all .6s ease-in-out;
 }
 
 .footer-social2 svg:hover {
-    background-color: var(--cor4);
-    transform: rotate(360deg);
+    border: 1px solid var(--cor3);
+    transform: rotate(360deg) ;
 }
 
 .italic {

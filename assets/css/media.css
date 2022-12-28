@@ -20,8 +20,7 @@
 
     .inicio-inp {
         text-align: center;
-        width: 210px;
-        background-color: #253d96;
+        width: 240px;
     }
 
     .img-pq {
@@ -245,8 +244,14 @@
     }
 
     .inicio-inp {
-        width: 180px;
+        width: 210px;
+        font-size: 14px;
+        margin-top: 1em;
     }
+
+    .inicio-inp:hover {
+        letter-spacing: 0px;
+    }   
 
     .img-pq {
         padding: 0;
