@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;600;700&family=Noto+Sans:wght@300&family=Source+Sans+Pro:wght@400;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
 :root {
     --cor0: #000;
     --cor1: #252525;
@@ -9,10 +11,12 @@
     --cor3: #2dd4da;
     --cor4: #ff6600;
     --cor5: #464646;
+    --cor6: #0dff2d71;
 
     --font-fira: 'Fira Code', monospace;
     --font-source: 'Source Sans Pro', sans-serif;
-    --font-noto: font-family: 'Noto Sans', sans-serif;
+    --font-noto: 'Noto Sans', sans-serif;
+    --font-ubutunu: 'Ubuntu', sans-serif;;
 }
 
 * {
@@ -38,13 +42,6 @@ section {
     padding: 10px;
 }
 
-.barra-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
 .centralizador {
     margin: 0 auto;
 }
@@ -59,30 +56,33 @@ section {
     border-radius: 40px;
 }
 
-.ul {
+.header-menu {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 38px;
     list-style-type: none;
+    gap: 7%;
+    padding: 1%; 
 }
 
-.ul a {
-    color: rgb(255, 255, 255);
-    font-weight: 600;
+.header-menu a{
+    color: white;
+    padding: 8px;
     text-decoration: none;
-    font-size: 18px;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.651);
+    font-family: var(--font-ubutunu);
+    font-weight: 600;
     transition: all .3s ease-in-out;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 12px;
+
+}
+.header-menu a:hover {
+    border: 1px solid var(--cor3);
+    transform: scale(1.1);
 }
 
-.ul a:hover {
-    color: var(--cor3);
-    border-radius: 5px;
-    text-decoration: underline;
-}
 
 #inicio {
     background: linear-gradient(45deg, var(--cor0) 23.95% , var(--cor5) 67.08%);
@@ -227,6 +227,7 @@ section {
     font-size: 22px;
     font-family: var(--font-fira);
     text-align: flex-start;
+    padding-left: 5px;
 }
 
 .projeto-text p {
@@ -238,7 +239,6 @@ section {
     margin-top: 8px;
     padding: 8px;
     text-align: justify;
-    letter-spacing: 1px;
 }
 
 .projeto-links {
@@ -321,6 +321,7 @@ section {
 
 .footer-social p {
     padding: 8px 0;
+    color: #cacaca;
 }
 
 .footer-social2 ul {
@@ -349,5 +350,11 @@ section {
 .italic {
     font-style: italic;
     letter-spacing: 1px;
+    color: white;
+}
+
+.strong {
+    color: white;
+    font-weight: bolder;
 }
 
