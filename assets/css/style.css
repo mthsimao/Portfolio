@@ -59,6 +59,7 @@ section {
 .header-menu {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     list-style-type: none;

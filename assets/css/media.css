@@ -13,9 +13,9 @@
     .section-inicio {
         display: flex;
         flex-direction: column;
-        gap: 50px;
+        gap: 3.7em;
         height: auto;
-        padding: 30% 20px 15% 20px;
+        padding: 12% 20px;
     }
 
     .inicio-inp {
@@ -34,12 +34,6 @@
 
 @media (max-width:768px) {
 
-    .barra-container {  
-        flex-direction: column;
-        gap: 15px;
-        height: 150px;
-    }
-
     .div-habilidades-titulo h2 {
         font-size: 2.6rem;
     }
@@ -52,7 +46,7 @@
 
 @media (max-width:490px) {
     .section-sobre-mim2 {
-        height: 55em;
+        height: 50em;
     }
 
     .section-sm-text p{
@@ -60,7 +54,7 @@
     }
 }
 
-@media (max-width:440px) {
+@media (max-width:450px) {
     .div-projeto1 {
         width: 370px;
     }
@@ -72,8 +66,8 @@
 
 @media (max-width:420px) {
 
-    .barra-container {
-        height: 180px;
+    .section-inicio {
+        padding-top: 20%;
     }
 
     .section-inicio-text {
@@ -133,10 +127,6 @@
 
 @media (max-width:390px) {
 
-    .barra-container {
-        height: 190px;
-    }
-
     .section-inicio-text {
         font-size: 1.4rem;
     }
@@ -150,7 +140,7 @@
     }
 
     .section-sobre-mim2 {
-        height: 55em;
+        height: 40em;
     }
 
     .section-sobre-mim2 {
@@ -158,9 +148,21 @@
         padding: 10px;
     }
 
+    .section-sm-text h2 {
+        font-size: 2rem;
+    }
+
     .section-sm-text p {
         width: 330px;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+    }
+
+    .section-sm-text span {
+        padding-left: 4%;
+    }
+
+    .img-programmer {
+        width: 240px;
     }
 
     .section-projeto {
@@ -183,8 +185,6 @@
         display: flex;
         flex-direction: column;
     }
-
-    
 
     .footer-social2 ul{
         padding-top: 15px;
@@ -212,30 +212,52 @@
 
 @media (max-width:320px) {
 
+    .header-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
     .img-programmer {
         width: 250px;
     }
 
+    .section-inicio-text {
+        width: 250px;
+    }
+
+    .section-sm-text h2{
+        font-size: 1.6rem;
+    }
+
     .section-sm-text p {
         width: 280px;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+    }
+
+    .section-inicio-text-p2 {
+        width: 270px;
     }
 
     .div-projeto1 {
-        width: 310px;
+        width: 280px;
+        margin: 0 5px;
+    }
+
+    .div-habilidades-titulo h2 {
+        font-size: 2.3rem;
     }
 
     .pro-img{
-        width: 250px;
-        height: 130px;
+        width: 230px;
+        height: 110px;
     }
-
 }
 
-@media (max-width:280px) {
+@media (max-width:310px) {
 
     .section-inicio {
-        padding: 15px;
+        padding: 20px;
     }
 
     .section-inicio-text {
