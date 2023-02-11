@@ -179,7 +179,6 @@ section {
 }
 
 .section-projeto {
-    padding: 0 20px;
     padding-bottom: 2em;
 }
 
@@ -196,13 +195,13 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
-    justify-content: stretch;
+    justify-content: center;
     gap: 1.5em;
 }
 
 .card-flex {
     background-color: var(--cor1);
-    max-width: 350px;
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;

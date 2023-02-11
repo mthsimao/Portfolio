@@ -51,7 +51,7 @@
 }
 
 @media (max-width:450px) {
-    .div-projeto1 {
+    .card-flex {
         width: 370px;
     }
 
@@ -76,7 +76,7 @@
 
     .section-sobre-mim2 {
         gap: 5px;
-        padding: 10px;
+        padding: 20px 0;
     }
 
     .section-sm-text p {
@@ -84,11 +84,7 @@
         font-size: 1.4rem;
     }
 
-    .section-projeto {
-        padding: 0;
-    }
-
-    .div-projeto1 {
+    .card-flex {
         width: 350px;
     }
 
@@ -99,16 +95,6 @@
     .div-footer {
         display: flex;
         flex-direction: column;
-    }
-
-    .section-sobre-mim2 {
-        gap: 5px;
-        padding: 10px;
-    }
-
-    .section-sm-text p {
-        width: 330px;
-        font-size: 1.3rem;
     }
 
     .section-projeto {
@@ -133,12 +119,8 @@
     }
 
     .section-sobre-mim2 {
-        height: 40em;
-    }
-
-    .section-sobre-mim2 {
+        height: 45em;
         gap: 5px;
-        padding: 10px;
     }
 
     .section-sm-text h2 {
@@ -166,12 +148,12 @@
         font-size: 1.7rem;
     }
 
-    .div-projeto1 {
+    .card-flex {
         width: 320px;
     }
 
-    .pro-img {
-        width: 255px;
+    .card-img {
+        width: 290px;
     }
 
     .div-footer {
@@ -186,12 +168,12 @@
 }
 
 @media (max-width:360px) {
-    .div-projeto1 {
-        width: 320px;
+    .card-flex {
+        width: 300px;
     }
 
-    .pro-img{
-        width: 250px;
+    .card-img{
+        width: 270px;
     }
 
 }
@@ -201,6 +183,16 @@
         width: 300px;
         font-size: 1.3rem;
     }
+
+    .card-flex {
+        width: 290px;
+        margin: 0;
+    }
+
+    .card-img{
+        width: 260px;
+    }
+
 }
 
 @media (max-width:320px) {
@@ -216,7 +208,7 @@
     }
 
     .section-inicio-text span {
-        font-size: 1.3em;
+        font-size: 1.3rem;
     }
 
     .section-sm-text h2{
@@ -228,18 +220,17 @@
         font-size: 1.2rem;
     }
 
-    .div-projeto1 {
-        width: 280px;
-        margin: 0 5px;
+    .card-flex {
+        width: 260px;
+        margin: 0;
     }
 
     .div-habilidades-titulo h2 {
         font-size: 2.3rem;
     }
 
-    .pro-img{
+    .card-img{
         width: 230px;
-        height: 110px;
     }
 }
 
@@ -250,12 +241,12 @@
     }
 
     .section-inicio-text {
-        font-size: .9em;
+        font-size: .9rem;
     }
 
     .inicio-inp {
         width: 210px;
-        font-size: 14px;
+        font-size: .9rem;
         margin-top: 1em;
     }
 
@@ -270,16 +261,11 @@
 
     .div-habilidades-titulo h2,
     .section-sm-text h2 {
-        font-size: 1.7em;
+        font-size: 1.7rem;
     }
 
     .img-programmer {
         width: 220px;
-    }
-
-    .section-sobre-mim2 {
-        padding: 0;
-        gap: 0;
     }
 
     .section-sm-text p {
@@ -287,20 +273,16 @@
        padding: 10px;
     }
 
-    .div-projeto1 {
-        width: 260px;
-        margin: 0;
+    .card-flex {
+        width: 240px;
     }
 
-    .pro-img {
-        padding-top: 0;
-        border-radius: 10px;
-        width: 220px;
-        height: 100px;
+    .card-img {
+        width: 210px;
     }
 
-    .projeto-text p{
-      font-size: .9em;
+    .card-text-p{
+      font-size: .9rem;
     }
 
     .div-habilidades-a {
