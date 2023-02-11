@@ -197,33 +197,33 @@ section {
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: stretch;
-    gap: 10px;
+    gap: 1.5em;
 }
 
-.card-projeto {
-    background-color: var(--cor0);
-    max-width: 420px;
+.card-flex {
+    background-color: var(--cor1);
+    max-width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 2em;
-    padding: 1.5em;
+    padding: 1em;
     border-radius: 10px;
 }
 
 .card-img {
-    width: 380px;
+    width: 320px;
     border-radius: 10px;
 }
 
-.card-projeto-text h3 {
+.card-text-h3 {
     font-size: 22px;
     font-family: var(--font-fira);
     text-align: flex-start;
 }
 
-.card-projeto-text p {
+.card-text-p {
     font-size: 1.2em;
     font-family: var(--font-noto);
     color: white;
@@ -231,7 +231,7 @@ section {
     margin-top: 10px;
 }
 
-.card-projeto-btn input{
+.card-btn input{
     background-color: transparent;
     border: none;
     color: white;
@@ -243,9 +243,10 @@ section {
     font-size: 1.2em;
     cursor: pointer;
     transition: all .3s ease-in-out;
+    text-align: center;
 }
 
-.card-projeto-btn input:hover {
+.card-btn input:hover {
     border: 1px solid var(--cor3);
     letter-spacing: 3.8px;
     transform: scale(1.07);
