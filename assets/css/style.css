@@ -180,7 +180,7 @@ section {
 
 .section-projeto {
     padding: 0 20px;
-    padding-bottom: 5em;
+    padding-bottom: 2em;
 }
 
 .projeto-titulo {
@@ -196,70 +196,59 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
-    justify-content: center;
+    justify-content: stretch;
     gap: 10px;
 }
 
-.div-projeto1 {
-    width: 350px;
-    padding: 5px;
-    margin: 0 auto;
-}
-
-.pro-img {
-    width: 300px;
-    height: 140px;
-    border-radius: 10px;
-}
-
-.div-projeto {
+.card-projeto {
+    background-color: var(--cor0);
+    max-width: 420px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 20px;
-    padding: 25px;
-    gap: 16px;
-    background-color: #242424;
+    gap: 2em;
+    padding: 1.5em;
     border-radius: 10px;
 }
 
-.projeto-text h3 {
+.card-img {
+    width: 380px;
+    border-radius: 10px;
+}
+
+.card-projeto-text h3 {
     font-size: 22px;
     font-family: var(--font-fira);
     text-align: flex-start;
-    padding-left: 5px;
 }
 
-.projeto-text p {
-    text-indent: 14px;
-    font-size: 18px;
+.card-projeto-text p {
+    font-size: 1.2em;
     font-family: var(--font-noto);
-    font-weight: light;
     color: white;
-    margin-top: 8px;
-    padding: 8px;
-    text-align: justify;
+    text-align: left;
+    margin-top: 10px;
 }
 
-.projeto-links input{
+.card-projeto-btn input{
     background-color: transparent;
     border: none;
     color: white;
     border: 1px solid var(--cor4);
     padding: 12px;
-    width: 185px;
+    width: 140px;
     border-radius: 100px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.2em;
     cursor: pointer;
     transition: all .3s ease-in-out;
 }
 
-.projeto-links input:hover {
+.card-projeto-btn input:hover {
     border: 1px solid var(--cor3);
-    letter-spacing: 3px;
-    transform: scale(1.06);
+    letter-spacing: 3.8px;
+    transform: scale(1.07);
 }
 
 #tecnologias {
