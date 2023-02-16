@@ -168,7 +168,7 @@ section {
     font-family: var(--font-source);
     max-width: 609.25px;
     color: white;
-    margin: 10px 0;
+    padding: 15px 0;
 }
 
 #projetos {
