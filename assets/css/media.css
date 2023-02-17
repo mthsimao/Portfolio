@@ -51,6 +51,11 @@
 }
 
 @media (max-width:450px) {
+
+    .section-inicio {
+        background-color: var(--cor2);
+    }
+
     .card-flex {
         width: 370px;
     }
