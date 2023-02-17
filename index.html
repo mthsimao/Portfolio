@@ -11,20 +11,20 @@
 </head>
 <body>
     <div class="header">
-        <div class="barra">
-            <div>
-                <div class="barra-container">
-                    
-                    <nav class="header-menu">
-                        <a href="#inicio">Inicio</a>
-                        <a href="#sobre-mim">Sobre mim</a>
-                        <a href="#projetos">Projetos</a>
-                        <a href="#tecnologias">Tecnologias</a>                       
-                    </nav>
-                </div>
-            </div>
+        <ul class="header-menu">
+            <li class="dropdown">
+                <a href="#" class="dropbtn" id="dropbtnId" onclick="clickMenu()">
+                    <img src="assets/img/menu.svg" alt="Icon Menu">
+                </a>
 
-        </div>
+                <menu class="dropdown-content" id="itens">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobre-mim">Sobre mim</a>
+                    <a href="#projetos">Projetos</a>
+                    <a href="#tecnologias">Tecnologias</a> 
+                </menu>
+            </li>
+        </ul>
     </div>
 
 
@@ -179,5 +179,16 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+            
+        }
+    </script>
 </body>
 </html>
