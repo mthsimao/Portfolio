@@ -10,146 +10,151 @@
     <title>Portfólio | Matheus Simão</title>
 </head>
 <body>
-    <div class="header">
-        <ul class="header-menu">
-            <li class="dropdown">
-                <a href="#" class="dropbtn" id="dropbtnId" onclick="clickMenu()">
-                    <img src="assets/img/menu.svg" alt="Icon Menu">
-                </a>
 
-                <menu class="dropdown-content" id="itens">
-                    <a href="#inicio">Inicio</a>
-                    <a href="#sobre-mim">Sobre mim</a>
-                    <a href="#projetos">Projetos</a>
-                    <a href="#tecnologias">Tecnologias</a> 
-                </menu>
-            </li>
-        </ul>
+    <header>
+        <div class="logo">Portfólio</div>
+        
+        <div class="hamburguer">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        
+        <nav class="nav-bar">
+            <ul>
+                <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#sobre-mim" class="nav-link">Sobre mim</a></li>
+                <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#tecnologias" class="nav-link">Tecnologias</a></li>
+            </ul>
+        </nav>
 
-        <a href="#tecnologias">go to tech</a>
-    </div>
+    </header>
+    
 
+    <main>
+        <section id="inicio">
+            <div class="section-inicio">
+                <div class="section-inicio-text">
+                    <p>Oi, eu sou <br> <span>Matheus Simão.</span></p>
+                    <p class="section-inicio-text-p2">Futuro desenvolvedor Front-end</p>
 
-    <section id="inicio">
-        <div class="section-inicio">
-            <div class="section-inicio-text">
-                <p>Oi, eu sou <br> <span>Matheus Simão.</span></p>
-                <p class="section-inicio-text-p2">Futuro desenvolvedor Front-end</p>
-
-                <a href="https://github.com/mthsimao?tab=repositories" target="_blank">
-                    <input type="button" value="Repositórios no github" class="inicio-inp">
-                </a>
-            </div>
-
-            <div class="section-inicio-2">
-                <div class="section-inicio-2-img">
-                    <img src="assets/img/eu3.png" class="img-pq">
+                    <a href="https://github.com/mthsimao?tab=repositories" target="_blank">
+                        <input type="button" value="Repositórios no github" class="inicio-inp">
+                    </a>
                 </div>
-            </div>
-        </div><!--section-inicio-->
-    </section><!--inicio-->
 
-    <section id="sobre-mim">
-        <div class="section-sobre-mim centralizador">
-
-            <div class="section-sobre-mim2">
-                <div class="section-sm-avatar">
-                    <img src="assets/img/programmer2.jpg" alt="avatar" class="img-programmer" >
+                <div class="section-inicio-2">
+                    <div class="section-inicio-2-img">
+                        <img src="assets/img/person.png" class="img-pq">
+                    </div>
                 </div>
-                <div class="section-sm-text">
-                    <h2>Sobre mim</h2>
-                    <p>Meu nome é Matheus Simão e eu sou apaixonado por tecnologia, decidi escolher o caminho da programação com mais foco em desenvolvimento web (Front-end). Possuo pouca experiência nesta área, mas estou aprendendo cada dia mais. <br> <span>Irei aprender JavaScript, React, etc.</span></p>
+            </div><!--section-inicio-->
+        </section><!--inicio-->
+
+        <section id="sobre-mim">
+            <div class="section-sobre-mim centralizador">
+
+                <div class="section-sobre-mim2">
+                    <div class="section-sm-avatar">
+                        <img src="assets/img/programmer2.jpg" alt="avatar" class="img-programmer" >
+                    </div>
+                    <div class="section-sm-text">
+                        <h2>Sobre mim</h2>
+                        <p>Meu nome é Matheus Simão e eu sou apaixonado por tecnologia, decidi escolher o caminho da programação com mais foco em desenvolvimento web (Front-end). Possuo pouca experiência nesta área, mas estou aprendendo cada dia mais. <br> <span>Irei aprender JavaScript, React, etc.</span></p>
+                    </div>
                 </div>
-            </div>
-        </div><!--secioon-sobre-mim-->
-    </section>
+            </div><!--secioon-sobre-mim-->
+        </section>
 
-    <section id="projetos">
-        <div class="section-projeto centralizador">
+        <section id="projetos">
+            <div class="section-projeto centralizador">
 
-            <div class="projeto-titulo">
-                <h2>projetos</h2>
-            </div>
-
-            <div class="projeto-flex">
-
-                <div class="card-projeto">
-
-                    <div class="card-flex">
-                        <div class="card-img">
-                            <img src="assets/img/landing-page.jpg" class="card-img" alt="Foto de um exemplo de uma propaganda">
-                        </div>
-
-                        <div class="card-text">
-                            <h3 class="card-text-h3">Landing page</h3>
-                            <span>Credits: <a href="https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-flexbox--pntgqJdZb" target="_blank" rel="nofollow">Frontend Mentor</a></span>
-                        </div>
-
-                        <div class="card-btn">
-                             <a href="https://mthsimao.github.io/nuddle-landing-page/" target="_blank"><input type="button" value="View"></a>
-                        </div>
-                    </div><!--card-flex-->
-
-                </div><!--card-projeto-->
-            
-                <div class="card-projeto">
-
-                    <div class="card-flex">
-                        <div class="card-img">
-                            <img src="assets/img/nft-card.jpg" class="card-img" alt="Foto de um exemplo de cartão nft">
-                        </div>
-
-                        <div class="card-text">
-                            <h3 class="card-text-h3">Nft Card</h3>
-                            <span>Credits: <a href="https://www.frontendmentor.io/solutions/responsive-nft-card-using-html-and-css-nQ0g0mg-x5" target="_blank" rel="nofollow">Frontend Mentor</a></span>
-                        </div>
-
-                        <div class="card-btn">
-                             <a href="https://mthsimao.github.io/nft-card/" target="_blank"><input type="button" value="View"></a>
-                        </div>
-                    </div><!--card-flex-->
-
-                </div><!--card-projeto-->
-
-                <div class="card-projeto">
-
-                    <div class="card-flex">
-                        <div class="card-img">
-                            <img src="assets/img/login.png" class="card-img" alt="Foto de um exemplo de página de login">
-                        </div>
-
-                        <div class="card-text">
-                            <h3 class="card-text-h3">Página de login</h3>
-                        </div>
-
-                        <div class="card-btn">
-                             <a href="https://mthsimao.github.io/pagina-de-login/" target="_blank"><input type="button" value="View"></a>
-                        </div>
-                    </div><!--card-flex-->
-
-                </div><!--card-projeto-->
-
-            </div><!--projeto-flex-->
-
-            
-        </div><!--section-projeto-->
-    </section>
-
-    <section id="tecnologias">
-        <div class="div-habilidades">
-            <div class="div-habilidades-titulo">
-                <h2>tecnologias</h2>
-            </div>
-
-            <div class="div-habilidades-itens">
-                <div class="div-habilidades-a">
-                    <img src="assets/img/html.png" class="div-habilidades-img">
-
-                    <img src="assets/img/css-3.png" class="div-habilidades-img">
+                <div class="projeto-titulo">
+                    <h2>projetos</h2>
                 </div>
-            </div><!--div-habilidades-itens-->
-        </div><!--div-habilidades-->
-    </section>
+
+                <div class="projeto-flex">
+
+                    <div class="card-projeto">
+
+                        <div class="card-flex">
+                            <div class="card-img">
+                                <img src="assets/img/landing-page.jpg" class="card-img" alt="Foto de um exemplo de uma propaganda">
+                            </div>
+
+                            <div class="card-text">
+                                <h3 class="card-text-h3">Landing page</h3>
+                                <span>Credits: <a href="https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-flexbox--pntgqJdZb" target="_blank" rel="nofollow">Frontend Mentor</a></span>
+                            </div>
+
+                            <div class="card-btn">
+                                <a href="https://mthsimao.github.io/nuddle-landing-page/" target="_blank"><input type="button" value="View"></a>
+                            </div>
+                        </div><!--card-flex-->
+
+                    </div><!--card-projeto-->
+                
+                    <div class="card-projeto">
+
+                        <div class="card-flex">
+                            <div class="card-img">
+                                <img src="assets/img/nft-card.jpg" class="card-img" alt="Foto de um exemplo de cartão nft">
+                            </div>
+
+                            <div class="card-text">
+                                <h3 class="card-text-h3">Nft Card</h3>
+                                <span>Credits: <a href="https://www.frontendmentor.io/solutions/responsive-nft-card-using-html-and-css-nQ0g0mg-x5" target="_blank" rel="nofollow">Frontend Mentor</a></span>
+                            </div>
+
+                            <div class="card-btn">
+                                <a href="https://mthsimao.github.io/nft-card/" target="_blank"><input type="button" value="View"></a>
+                            </div>
+                        </div><!--card-flex-->
+
+                    </div><!--card-projeto-->
+
+                    <div class="card-projeto">
+
+                        <div class="card-flex">
+                            <div class="card-img">
+                                <img src="assets/img/login.png" class="card-img" alt="Foto de um exemplo de página de login">
+                            </div>
+
+                            <div class="card-text">
+                                <h3 class="card-text-h3">Página de login</h3>
+                            </div>
+
+                            <div class="card-btn">
+                                <a href="https://mthsimao.github.io/pagina-de-login/" target="_blank"><input type="button" value="View"></a>
+                            </div>
+                        </div><!--card-flex-->
+
+                    </div><!--card-projeto-->
+
+                </div><!--projeto-flex-->
+
+                
+            </div><!--section-projeto-->
+        </section>
+
+        <section id="tecnologias">
+            <div class="div-habilidades">
+                <div class="div-habilidades-titulo">
+                    <h2>tecnologias</h2>
+                </div>
+
+                <div class="div-habilidades-itens">
+                    <div class="div-habilidades-a">
+                        <img src="assets/img/html.png" class="div-habilidades-img">
+
+                        <img src="assets/img/css-3.png" class="div-habilidades-img">
+                    </div>
+                </div><!--div-habilidades-itens-->
+            </div><!--div-habilidades-->
+        </section>
+
+    </main>
 
     <footer id="footer">
         <div class="div-footer">
@@ -184,14 +189,6 @@
         </div>
     </footer>
 
-    <script>
-        function clickMenu() {
-            if (itens.style.display == 'block') {
-                itens.style.display = 'none'
-            } else {
-                itens.style.display = 'block'
-            }
-        }
-    </script>
+    <script src="assets/js/responsive-menu.js"></script>
 </body>
 </html>

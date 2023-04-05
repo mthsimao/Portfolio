@@ -6,6 +6,11 @@
 }
 
 @media (max-width:1024px) {
+
+    header {
+        padding: 0 50px;
+    }
+
     .section-inicio {
         display: flex;
         flex-direction: column;
@@ -30,6 +35,60 @@
 
 @media (max-width:768px) {
 
+    header {
+        padding: 0 30px;
+    }
+
+    .hamburguer {
+        display: block;
+    }
+
+    .nav-bar {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 0;
+        background-color: #2e2e2e;
+        transition: all .3s ease-in-out;
+        overflow: hidden;
+    }
+
+    .nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 30px auto 0 auto;
+        text-align: center;
+        transition: all .3s ease-in-out;
+        opacity: 0;
+    }
+
+    .nav-bar ul li a {
+        margin-bottom: 1.2em;
+    }
+
+    .nav-bar.active {
+        height: 300px;
+    }
+
+    .nav-bar.active ul {
+        opacity: 1;
+    }
+
+    .bar.active {
+        margin: 12px auto;
+    }
+
+    .hamburguer.active .bar:nth-child(2) {
+        display: none;
+    }
+    .hamburguer.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburguer.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
     .div-habilidades-titulo h2 {
         font-size: 2.6rem;
     }
