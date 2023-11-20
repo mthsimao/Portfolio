@@ -2,196 +2,312 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/media.css">
-    <link rel="shortcut icon" href="assets/img/icon.png" type="image/x-icon">
-    <title>Portfólio | Matheus Simão</title>
+    <link rel="shortcut icon" href="img/android-chrome-512x512.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Mth Simão</title>
 </head>
 <body>
-
     <header>
-        <div class="logo">Portfólio</div>
+
+        <div class="head">
+
+            <div class="header-name">
+                <a href="#">Simão</a>
+            </div>
+
+            
+
+            <div class="nav">
+
+                <div class="nav-bar">
+                    <nav class="nav-menu">
+                        <ul>
+                            <li><a href="#home" class="nav-link"><i class="bi bi-house-door"></i> Home</a></li>
+                            <li><a href="#aboutMe" class="nav-link"><i class="bi bi-person"></i> About Me</a></li>
+                            <li><a href="#skills" class="nav-link"><i class="bi bi-file-earmark-code"></i> Skills</a></li>
+                            <li><a href="#portfolio" class="nav-link"> <i class="bi bi-card-image"></i> Portfolio</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="hamburguer">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+
+                </div><!--nav bar-->
+                
+                
+                <div class="themes">
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="change-theme" id="change-theme">
+                            <label for="change-theme">
+                                <p class="lightbtn"> <i class="bi bi-moon"></i></p>
+                                <p class="darkbtn"> <i class="bi bi-brightness-high"></i></p>
+                            </label>
+                        </li>
+                    </ul>
+                </div><!--themes-->
+
+            </div><!--nav-->
+
+           
+
+        </div><!--head-->
+
         
-        <div class="hamburguer">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-        
-        <nav class="nav-bar">
-            <ul>
-                <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
-                <li class="nav-item"><a href="#sobre-mim" class="nav-link">Sobre mim</a></li>
-                <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
-                <li class="nav-item"><a href="#tecnologias" class="nav-link">Tecnologias</a></li>
-            </ul>
-        </nav>
 
     </header>
-    
+
+    <!-- MAIN -->
 
     <main>
-        <section id="inicio">
-            <div class="section-inicio">
-                <div class="section-inicio-text">
-                    <p>Oi, eu sou <br> <span>Matheus Simão.</span></p>
-                    <p class="section-inicio-text-p2">Futuro desenvolvedor Front-end</p>
 
-                    <a href="https://github.com/mthsimao?tab=repositories" target="_blank">
-                        <input type="button" value="Repositórios no github" class="inicio-inp">
-                    </a>
-                </div>
+        <section class="content1" id="home">
 
-                <div class="section-inicio-2">
-                    <div class="section-inicio-2-img">
-                        <img src="assets/img/person.png" class="img-pq">
-                    </div>
-                </div>
-            </div><!--section-inicio-->
-        </section><!--inicio-->
+            <div class="content1-text">
 
-        <section id="sobre-mim">
-            <div class="section-sobre-mim centralizador">
+                <div class="sociais">
+                    <ul>
+                        <li><a href="https://github.com/mthsimao" target="_blank"><i class="bi bi-github"></i></a></li>
+                        <li><a href="https://instagram.com/mthsimao" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                    </ul>
+                 </div>
+            </div>            
+            
+            <div class="content1-text2">
+                <h1>Hello, world! I'm Matheus Simão</h1>
+                <span>Developer and Capoeirista</span>
+                <p>Treading new paths through lines of code, next level skateboarding experience and one who is always looking for new opportunities.</p>
+            </div>
+            
+            <div class="content1-img">
+                <img src="img/cartoon.png" alt="Picture of programmer cartoon" class="img-cartoon">
+            </div>
 
-                <div class="section-sobre-mim2">
-                    <div class="section-sm-avatar">
-                        <img src="assets/img/programmer2.jpg" alt="avatar" class="img-programmer" >
-                    </div>
-                    <div class="section-sm-text">
-                        <h2>Sobre mim</h2>
-                        <p>Meu nome é Matheus Simão e eu sou apaixonado por tecnologia, decidi escolher o caminho da programação com mais foco em desenvolvimento web (Front-end). Possuo pouca experiência nesta área, mas estou aprendendo cada dia mais. <br> <span>Irei aprender JavaScript, React, etc.</span></p>
-                    </div>
-                </div>
-            </div><!--secioon-sobre-mim-->
         </section>
 
-        <section id="projetos">
-            <div class="section-projeto centralizador">
+        <!--ABOUT ME-->
 
-                <div class="projeto-titulo">
-                    <h2>projetos</h2>
+        <section id="aboutMe" class="about">
+            <div class="aboutTitle">
+                    <h2>About me</h2>
+            </div>
+            
+            <div class="about-flex">
+
+                <div class="about-img">
+                    <img src="img/eiu2.png" alt="">
                 </div>
 
-                <div class="projeto-flex">
+                <div class="about-text">
+                    <p>Hi, I'm Matheus Simão, a Brazilian technology enthusiast who after several years of study decided to pursue a career in web development with <span class="techs">Html, Css, JavaScript</span> (for now).<br> <br>My academic career allowed me to pursue the field of technology in a way that only I know how to do, constantly looking for excellence and opportunities to innovate and make the difference.
+                    </p>
 
-                    <div class="card-projeto">
+                    <div class="about-box">
 
-                        <div class="card-flex">
-                            <div class="card-img">
-                                <img src="assets/img/landing-page.jpg" class="card-img" alt="Foto de um exemplo de uma propaganda">
-                            </div>
+                        <div class="about-box-item">
+                            <span>01+</span>
+                            <span>Year <br> experience</span>
+                        </div>
 
-                            <div class="card-text">
-                                <h3 class="card-text-h3">Landing page</h3>
-                                <span>Credits: <a href="https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-flexbox--pntgqJdZb" target="_blank" rel="nofollow">Frontend Mentor</a></span>
-                            </div>
+                        <div class="about-box-item">
+                            <span>04+</span>
+                            <span>Completed <br> projects</span>
+                        </div>
 
-                            <div class="card-btn">
-                                <a href="https://mthsimao.github.io/nuddle-landing-page/" target="_blank"><input type="button" value="View"></a>
-                            </div>
-                        </div><!--card-flex-->
+                    </div>
+                </div>
 
-                    </div><!--card-projeto-->
+            </div>
+
+        </section>
+
+        <!--SKILLS-->
+
+        <section id="skills">
+            
+            <div class="skills-flex">
+                <div class="skills-title">
+                    <h2>Skills</h2>
+                    <p>My technical level</p>
+                </div>
+            </div>
+
+            <div class="skills container">        
+
+                <div class="skills-topic">
+                    <p><i class="bi bi-braces"></i></p>
+                    <p class="skills-topic-t"><span class="dev">Developer</span> <span class="beg">Beginner</span></p>
+
+
+                </div>
+
+                <div class="skills-data-flex">
+
+                    <div class="skills-data">
+                        <div class="skills-data-titles">
+                            <h3>HTML</h3>
+                        </div>
+                    
+                        <div class="skills-data-bar">
+                            <span class="bar-percentage bar-back skills-html"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills-data">
+                        <div class="skills-data-titles">
+                            <h3>CSS</h3>
+                        </div>
+                    
+                        <div class="skills-data-bar">
+                            <span class="bar-percentage bar-back skills-css"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills-data">
+                        <div class="skills-data-titles">
+                            <h3>JavaScript</h3>
+                        </div>
+                    
+                        <div class="skills-data-bar">
+                            <span class="bar-percentage bar-back skills-js"></span>
+                        </div>
+                    </div>
+
+                </div><!--skills-data-flex-->
                 
-                    <div class="card-projeto">
-
-                        <div class="card-flex">
-                            <div class="card-img">
-                                <img src="assets/img/nft-card.jpg" class="card-img" alt="Foto de um exemplo de cartão nft">
-                            </div>
-
-                            <div class="card-text">
-                                <h3 class="card-text-h3">Nft Card</h3>
-                                <span>Credits: <a href="https://www.frontendmentor.io/solutions/responsive-nft-card-using-html-and-css-nQ0g0mg-x5" target="_blank" rel="nofollow">Frontend Mentor</a></span>
-                            </div>
-
-                            <div class="card-btn">
-                                <a href="https://mthsimao.github.io/nft-card/" target="_blank"><input type="button" value="View"></a>
-                            </div>
-                        </div><!--card-flex-->
-
-                    </div><!--card-projeto-->
-
-                    <div class="card-projeto">
-
-                        <div class="card-flex">
-                            <div class="card-img">
-                                <img src="assets/img/interactive-rating.jpg" class="card-img" alt="Foto de um exemplo de página de login">
-                            </div>
-
-                            <div class="card-text">
-                                <h3 class="card-text-h3">Avaliação interativa</h3>
-                                <span>Credits: <a href="https://www.frontendmentor.io/solutions/responsive-nft-card-using-html-and-css-nQ0g0mg-x5" target="_blank" rel="nofollow">Frontend Mentor</a></span>
-                            </div>
-
-                            <div class="card-btn">
-                                <a href="https://mthsimao.github.io/interactive-rating/" target="_blank"><input type="button" value="View"></a>
-                            </div>
-                        </div><!--card-flex-->
-
-                    </div><!--card-projeto-->
-
-                </div><!--projeto-flex-->
-
-                
-            </div><!--section-projeto-->
+            </div><!--skills-->
         </section>
 
-        <section id="tecnologias">
-            <div class="div-habilidades">
-                <div class="div-habilidades-titulo">
-                    <h2>tecnologias</h2>
+        <!--PORTFOLIO-->
+
+        <section id="portfolio">
+
+            <div class="projects">
+
+                <div class="projects-title">
+                    <h2>- My Portfolio -</h2>
+                    <span>Latest projects</span>
                 </div>
 
-                <div class="div-habilidades-itens">
-                    <div class="div-habilidades-a">
-                        <img src="assets/img/html.png" class="div-habilidades-img">
+                <div class="grid-container">
 
-                        <img src="assets/img/css-3.png" class="div-habilidades-img">
+                    <div class="grid-project">
 
-                        <img src="assets/img/js.png" class="div-habilidades-img">
-                    </div>
-                </div><!--div-habilidades-itens-->
-            </div><!--div-habilidades-->
+                        <div class="item">
+                            <div class="item-img">
+                                <img src="img/interactive-rating.jpg" class="img-project" alt="Foto do projeto de avaliação interativa">
+                            </div>
+                            <div class="item-text">
+                                <div class="item-text-flex">
+                                    <h2>interactive rating</h2>
+                                    <p>As if it were a page to rate a product from 1 to 5 stars.</p>
+                    
+                                    <div class="item-text-bottom">
+                                        <a href="https://mthsimao.github.io/interactive-rating/" target="_blank" class="item-btn btn-flex">View <i class="bi bi-arrow-right-short"></i> </a>
+                                    </div>
+                                </div>
+                                <div class="item-text-tecs">
+                                    <ul class="used-tecs">
+                                        <li><img src="img/html.png" alt="logo html" class="img-pq"></li>
+                                        <li><img src="img/css-3.png" alt="logo css" class="img-pq"></li>
+                                        <li><img src="img/js.png" alt="logo JavaScript" class="img-pq"></li>
+                                    </ul>
+                                </div>
+                    
+                            </div><!--item-text-->
+                        </div><!--item-->
+                        
+                        <div class="item">
+                            <div class="item-img">
+                                <img src="img/darklight-mode.png" class="img-project" alt="Foto do projeto de uma landing page com modo claro e escuro">
+                            </div>
+                    
+                            <div class="item-text">
+                                <div class="item-text-flex">
+                                    <h2>Web page with dark/light mode</h2>
+                                    <p>Landing page with dark and light modes.</p>
+                    
+                                    <div class="item-text-bottom">
+                                        <a href="https://mthsimao.github.io/dark-light-theme/" target="_blank" class="item-btn btn-flex">View <i class="bi bi-arrow-right-short"></i> </a>
+                                    </div>
+                                </div>
+                    
+                                <div class="item-text-tecs lp">
+                                    <ul class="used-tecs">
+                                        <li><img src="img/html.png" alt="logo html" class="img-pq"></li>
+                                        <li><img src="img/css-3.png" alt="logo css" class="img-pq"></li>
+                                        <li><img src="img/js.png" alt="logo JavaScript" class="img-pq"></li>
+                                    </ul>
+                                </div>
+                    
+                            </div><!--item-text-->
+                    
+                        </div><!--item-->
+
+                        <div class="item">
+                            <div class="item-img">
+                                <img src="img/clipboard-page.jpg" class="img-project" alt="Foto de outra landing page">
+                            </div>
+                            <div class="item-text">
+                                <div class="item-text-flex">
+                                    <h2>Landing page</h2>
+                                    <p>As if it were a page to share the product from certain store</p>
+                    
+                                    <div class="item-text-bottom">
+                                        <a href="https://mthsimao.github.io/clipboard-landing-page/" target="_blank" class="item-btn btn-flex">View <i class="bi bi-arrow-right-short"></i> </a>
+                                    </div>
+                                </div>
+                                <div class="item-text-tecs">
+                                    <ul class="used-tecs">
+                                        <li><img src="img/html.png" alt="logo html" class="img-pq"></li>
+                                        <li><img src="img/css-3.png" alt="logo css" class="img-pq"></li>
+                                    </ul>
+                                </div>
+                    
+                            </div><!--item-text-->
+                    
+                        </div><!--item-->
+                    
+                    </div><!--grid project-->
+                
+                </div><!--grid container-->
+
+            </div><!--projects-->
         </section>
 
+        
     </main>
 
-    <footer id="footer">
-        <div class="div-footer">
-            <div class="footer-social">
-                <p>Email para contato: <span class="italic">mthsimaoo@gmail.com</span></p>
-                <p>Feito por <span class="strong">Matheus Simão</span></p>
-            </div>
+    <footer class="footer">
+        <div class="footer-bg">
 
-            <div class="footer-social2">
-                <ul>
-                    <li>
-                        <a href="https://github.com/mthsimao/" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="64" height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-                              </svg>
-                        </a>
-                    </li>
+            <div class="grid-footer">
 
-                    <li>
-                        <a href="https://instagram.com/mthsimao1" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="64" height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                <rect x="4" y="4" width="16" height="16" rx="4" />
-                                <circle cx="12" cy="12" r="3" />
-                                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-                              </svg>
-                        </a>
-                    </li>
-                </ul>
+                <div class="footer-title">
+                    <h2>Mth Simão</h2>
+                    
+                    <div class="footer-title-bottom">
+                        <span>High school</span>
+                        <span>English Course</span>
+                    </div>
+                </div>
+                
+                <div class="sociais-footer">
+                    <ul>
+                        <li><a href="https://github.com/mthsimao" target="_blank"><i class="bi bi-github bi-git-f"></i></a></li>
+            
+                        <li><a href="https://instagram.com/mthsimao" target="_blank"><i class="bi bi-instagram bi-ig-f"></i></a></li>
+                    </ul>
+                 </div>
             </div>
         </div>
-    </footer>
+    </footer>   
 
-    <script src="assets/js/responsive-menu.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
