@@ -6,6 +6,8 @@ hamburguer.addEventListener('click', function(){
     navMenu.classList.toggle('active')
 })
 
+// DARK MODE 
+
 const changeTheme = document.querySelector('#change-theme')
 
 function toggleDarkMode() {
