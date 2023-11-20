@@ -1,10 +1,15 @@
-const hamburguer = document.querySelector('.hamburguer')
+const dropdownMenu = document.querySelector('.hamburguer')
 const navMenu = document.querySelector('.nav-menu')
 
-hamburguer.addEventListener('click', function(){
-    hamburguer.classList.toggle('active')
+let iconList = document.querySelector('.bi-list')
+let closeMenu = document.querySelector('.bi-x-lg')
+
+dropdownMenu.addEventListener('click', function() {
     navMenu.classList.toggle('active')
+    iconList.classList.toggle('active')
+    closeMenu.classList.toggle('active')
 })
+
 
 // DARK MODE 
 
@@ -17,3 +22,4 @@ function toggleDarkMode() {
 changeTheme.addEventListener("change", function() {
     toggleDarkMode()
 })
+
