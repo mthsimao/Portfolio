@@ -715,6 +715,12 @@ section {
     color: #fff;
 }
 
+.footer-title-bottom p span{
+    font-family: var(--font-rubik);
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
 .sociais-footer ul {
     display: grid;
     grid-template-columns: 36px 36px;
@@ -812,7 +818,7 @@ section {
 
     .content1 {
         display: grid;
-        grid-template-columns: 30px 1fr;
+        grid-template-columns: 20px 1fr;
     }
 
     .about-flex {
@@ -836,6 +842,10 @@ section {
 }
 
 @media screen and (max-width:490px) {
+    .head {
+        min-width: 80%;
+    }
+
     .nav-menu.active ul{
         flex-direction: column;
     }
@@ -954,6 +964,10 @@ section {
 
     .footer-title-bottom {
         font-size: .9rem;
+    }
+
+    .footer-title-bottom p span {
+        font-size: 1rem;
     }
 
     .nav-menu.active a {
