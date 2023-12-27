@@ -1,25 +1,29 @@
 const dropdownMenu = document.querySelector('.hamburguer')
 const navMenu = document.querySelector('.nav-menu')
 
-let iconList = document.querySelector('.bi-list')
-let closeMenu = document.querySelector('.bi-x-lg')
-
 dropdownMenu.addEventListener('click', function() {
     navMenu.classList.toggle('active')
     iconList.classList.toggle('active')
     closeMenu.classList.toggle('active')
 })
 
+// scroll suave
 
-// DARK MODE 
+const menuLinks = document.querySelector('.menu a[href^="#"]')
 
-const changeTheme = document.querySelector('#change-theme')
 
-function toggleDarkMode() {
-    document.body.classList.toggle('dark')
+
+function getDistanceFromTheTop(element) {
+    const id = element.getAttribute('href');
+    return document.querySelector(id).offsetTop;
 }
 
-changeTheme.addEventListener("change", function() {
-    toggleDarkMode()
-})
+function scrollToSection(event) {
+    event.preventDefault();
+}
 
+
+
+menuLinks.forEach( (link) => {
+    link.addEventListener('click', scrollToSection);
+});
