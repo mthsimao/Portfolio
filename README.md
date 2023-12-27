@@ -2,6 +2,6 @@
 
 Bem vindo ao meu portfólio.
 
-Falo mais um pouco sobre mim, apresento meus projetos, minhas skills, etc.
+Falo um pouco mais sobre mim, apresento meus projetos e minhas skills.
 
-<a href="https://mthsimao.github.io/portfolio" target="_blank"> Portfolio </a>
+<a href="https://mthsimao.github.io/portfolio" target="_blank"> Visitar </a>
