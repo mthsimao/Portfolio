@@ -65,3 +65,49 @@ function smoothScrollTo(endX, endY, duration) {
     window.scroll(newX, newY);
   }, 1000 / 60);
 }
+
+
+// texting animation
+
+const writeMessage = document.querySelector('.typing')
+
+// Array with messages
+
+const messages = [' Front-end Developer', ' UI/UX Design']
+
+let messageIndex = 0
+let characterIndex = 0
+let currentMessage = ''
+let currentCharacters = ''
+
+// Function to type
+
+const type = () => {
+
+  const shouldTypeFirstMessage = messageIndex === messages.length
+
+  if(shouldTypeFirstMessage) {
+    messageIndex = 0
+  }
+
+  // Current message receive the first position in array (messageIndex)
+  currentMessage = messages[messageIndex]
+
+  /* Current characters receive the current message divided one 
+    by one until it finish typing the message 
+  */ 
+  currentCharacters = currentMessage.slice(0, characterIndex++)
+
+  // Type the message on screen
+  writeMessage.textContent = currentCharacters
+
+  const shouldChangeMessageToBeTyped = 
+    currentCharacters.length === currentMessage.length
+
+  if(shouldChangeMessageToBeTyped) {
+    messageIndex++
+    characterIndex = 0
+  }
+}
+
+setInterval(type, 180)

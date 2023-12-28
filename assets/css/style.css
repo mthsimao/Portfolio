@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Rubik:wght@400;700&family=Signika+Negative:wght@400;700&family=Sometype+Mono&family=Source+Code+Pro&family=Tilt+Neon&display=swap');
 
 :root {
-    --cor0: #0f1113;  
+    --cor0: #08050f;  
     --cor1: #fae525;
     --cor2: #707070;
     --cor3: #9a25fa;
     --cor4: #0FC2C0;
-    --cor6: #161616;
+    --cor6: #0b011d;
     
     --cor1-1: #8443af;
     --cor2-1: #d27ce7;
@@ -221,21 +221,43 @@ section {
     color: var(--cor1);
 }
 
+.typing {
+    position: relative;
+    margin-left: 10px;
+}
+
+.typing::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 95%;
+    border-right: 3px solid var(--cor1);
+    right: -5px;
+    animation: blink 1s infinite ease;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/*
 .content1-animated-text span {
     position: relative;
 }
 
 .content1-animated-text span::before {
     content: '';
-    animation: words 8s infinite;
+    animation: words 20s infinite;
 }
 
 @keyframes words {
-    0%, 50%{
+    0%, 100%{
         content: 'Front-end Developer';
-    }
-    51%,100%{
-        content: 'UI / UX Design';
     }
 }
 
@@ -246,16 +268,27 @@ section {
     border-left: 3px solid var(--cor1);
     right: -8px;
     opacity: 1;
-    animation: cursor .8s infinite;
-    width: calc(100%  10);
+    animation: cursor .8s infinite, digita 30s steps(15) infinite;
+    width: calc(100% + 10px);
+    background-color: #000000;
 }
 
 @keyframes cursor {
     0%{
-        opacity: 0;
+        border-left: 3px solid transparent;
     }
 }
 
+@keyframes digita {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+        width: 0;
+    }
+
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 10px);
+    }
+}
+*/
 .content1-text1 p {
     font-family: var(--font-tilt);
     font-weight: bold;
