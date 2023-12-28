@@ -1,7 +1,15 @@
 # Portfólio
 
-Bem vindo ao meu portfólio.
+<p>Welcome to my portfolio!</p>
 
-Falo um pouco mais sobre mim, apresento meus projetos e minhas skills.
+<p>I speak little more about me, my projects and my skills.</p>
 
-<a href="https://mthsimao.github.io/portfolio" target="_blank"> Visitar </a>
+<img src="assets/img/portfolio.jpeg">
+
+[Click here to visit](https://mthsimao.github.io/portfolio)
+
+## 🔨 Tools
+
+- [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
