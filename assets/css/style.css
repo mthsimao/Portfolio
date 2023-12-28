@@ -221,6 +221,7 @@ section {
     color: var(--cor1);
 }
 
+/*
 .typing {
     position: relative;
     margin-left: 10px;
@@ -244,6 +245,8 @@ section {
         opacity: 1;
     }
 }
+
+*/
 
 .content1-text1 p {
     font-family: var(--font-tilt);
