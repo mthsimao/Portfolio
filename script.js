@@ -26,6 +26,10 @@ function getDistanceFromTheTop(element) {
 //   });
 // }
 
+const future = (study) => {
+  return study
+}
+
 function scrollToSection(event) {
   event.preventDefault();
   const distanceFromTheTop = getDistanceFromTheTop(event.target) - 72;
