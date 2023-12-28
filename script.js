@@ -5,9 +5,9 @@ let iconList = document.querySelector('.bi-list')
 let closeMenu = document.querySelector('.bi-x-lg')
 
 dropdownMenu.addEventListener('click', function() {
-    navMenu.classList.toggle('active')
-    iconList.classList.toggle('active')
-    closeMenu.classList.toggle('active')
+  navMenu.classList.toggle('active')
+  iconList.classList.toggle('active')
+  closeMenu.classList.toggle('active')
 })
 
 // scroll suave
