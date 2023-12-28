@@ -245,50 +245,6 @@ section {
     }
 }
 
-/*
-.content1-animated-text span {
-    position: relative;
-}
-
-.content1-animated-text span::before {
-    content: '';
-    animation: words 20s infinite;
-}
-
-@keyframes words {
-    0%, 100%{
-        content: 'Front-end Developer';
-    }
-}
-
-.content1-animated-text span::after {
-    content: '';
-    position: absolute;
-    height: 100%;
-    border-left: 3px solid var(--cor1);
-    right: -8px;
-    opacity: 1;
-    animation: cursor .8s infinite, digita 30s steps(15) infinite;
-    width: calc(100% + 10px);
-    background-color: #000000;
-}
-
-@keyframes cursor {
-    0%{
-        border-left: 3px solid transparent;
-    }
-}
-
-@keyframes digita {
-    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
-        width: 0;
-    }
-
-    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
-        width: calc(100% + 10px);
-    }
-}
-*/
 .content1-text1 p {
     font-family: var(--font-tilt);
     font-weight: bold;
