@@ -214,11 +214,46 @@ section {
     padding-bottom: 12px;
 }
 
-.content1-text1 span {
+.content1-animated-text {
     font-family: var(--font-monospace);
     font-size: 1.2rem;
     font-weight: bold;
     color: var(--cor1);
+}
+
+.content1-animated-text span {
+    position: relative;
+}
+
+.content1-animated-text span::before {
+    content: '';
+    animation: words 8s infinite;
+}
+
+@keyframes words {
+    0%, 50%{
+        content: 'Front-end Developer';
+    }
+    51%,100%{
+        content: 'UI / UX Design';
+    }
+}
+
+.content1-animated-text span::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    border-left: 3px solid var(--cor1);
+    right: -8px;
+    opacity: 1;
+    animation: cursor .8s infinite;
+    width: calc(100%  10);
+}
+
+@keyframes cursor {
+    0%{
+        opacity: 0;
+    }
 }
 
 .content1-text1 p {
