@@ -425,9 +425,8 @@ section {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    gap: .350rem;
-    width: 250px;
+    justify-content: stretch;
+    gap: 1rem;
 }
 
 .used-tecs li {
@@ -636,6 +635,7 @@ section {
         display: flex;
         flex-direction: column;
         text-align: center;
+        gap: 2rem;
     }
 
     .item-text-tecs {
