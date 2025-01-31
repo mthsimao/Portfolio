@@ -1,17 +1,14 @@
-const dropdownMenu = document.querySelector('.hamburguer')
-const navMenu = document.querySelector('.nav-menu')
+const menu = document.querySelector('.menu')
+const dropdown = document.querySelector('.dropdown-content')
 
 let iconList = document.querySelector('.bi-list')
 let closeMenu = document.querySelector('.bi-x-lg')
 
-const closeOpenMenu = () => {
-  navMenu.classList.toggle('active')
-  iconList.classList.toggle('active')
-  closeMenu.classList.toggle('active')
-}
+let ddb = document.querySelector('.ddb')
 
-dropdownMenu.addEventListener('click', function() {
-  closeOpenMenu();
+
+ddb.addEventListener('click', () => {
+  dropdown.classList.toggle('actived')
 })
 
 // scroll suave
