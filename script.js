@@ -4,10 +4,14 @@ const navMenu = document.querySelector('.nav-menu')
 let iconList = document.querySelector('.bi-list')
 let closeMenu = document.querySelector('.bi-x-lg')
 
-dropdownMenu.addEventListener('click', function() {
+const closeOpenMenu = () => {
   navMenu.classList.toggle('active')
   iconList.classList.toggle('active')
   closeMenu.classList.toggle('active')
+}
+
+dropdownMenu.addEventListener('click', function() {
+  closeOpenMenu();
 })
 
 // scroll suave
